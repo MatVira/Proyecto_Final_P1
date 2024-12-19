@@ -1,0 +1,114 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: url('../recursos/fondo.jpeg') no-repeat;
+  background-size: cover;
+  font-family: 'Century Gothic', sans-serif;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+header h1 {
+  text-align: left;
+}
+
+.logo img {
+  height: 6rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+nav {
+  margin-left: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffc107;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.box {
+  width: 225px;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 7px 13px 37px rgba(100, 70, 38, 0.8);
+}
+
+.box-img {
+  border-radius: 50%;
+  width: 112.5px;
+  height: 112.5px;
+  object-fit: cover;
+}
+
+.box h1 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin: 15px 0 7.5px;
+}
+
+.box h2 {
+  font-size: 13.5px;
+  letter-spacing: 1px;
+  margin-bottom: 11.25px;
+}
+
+.box p {
+  text-align: justify;
+}
+
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
